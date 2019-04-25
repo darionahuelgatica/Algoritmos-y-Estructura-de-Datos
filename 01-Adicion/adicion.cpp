@@ -6,7 +6,7 @@ Darío Nahuel Gatica 163.855-5
 #include <iostream>
 
 int main() {
-    std::cout<<"Bienvenido.\nEste es el asistente de adicion.\nPor favor, ingrese dos numeros.\n";
+    std::cout<<"Bienvenido.\nIngrese dos numeros para su adicion.\n";
     int a = 0;
     std::cin>>a;
     int b = 0;
