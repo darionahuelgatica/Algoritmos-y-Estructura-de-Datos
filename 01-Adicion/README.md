@@ -4,6 +4,4 @@
 
 • adicion.cpp:          contiene un codigo simple en lenguaje c++, su output es "Hello, World!" 
 
-• adicion.exe:          ejecutable que el compilador (MinGW) crea a partir de hello.cpp
-
 • .vscode: carpeta que contiene archivos requeridos por el IDE Visual Studio Code.
