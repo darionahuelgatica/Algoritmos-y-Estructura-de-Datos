@@ -55,4 +55,3 @@ int main() {
     testValue(mail);
     printf("\nAdios.\n");
 }
-
