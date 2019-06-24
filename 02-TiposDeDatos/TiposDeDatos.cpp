@@ -4,46 +4,26 @@
 * 29/04/2019
 */
 #include <string>
-#include <assert.h>
+#include <cassert>
 using namespace std;
-
-void testValue(char arroba)
-{
-  assert(arroba == 64);
-}
-void testValue(string mail)
-{
-  assert(mail == "dario.20398@gmail.com");
-}
-void testValue(unsigned edad)
-{
-  assert(edad == 21);
-}
-void testValue(int nota)
-{
-  assert(nota == 10);
-}
-void testValue(double promedio)
-{
-  assert(promedio == 10.00);
-}
-void testValue(bool booleano)
-{
-  assert(booleano);
-}
 
 int main() {
     char arroba = '@';
-    testValue(arroba);
+    assert(64 == arroba);
+	
     string mail = "dario.20398gmail.com";
     mail.insert(11, 1, arroba);
-    testValue(mail);
+    assert("dario.20398@gmail.com" == mail);
+	
     unsigned edad = 21;
-    testValue(edad);
+    assert(21 == edad);
+	
     int nota = 10;
-    testValue(nota);
+    assert(10 == nota);
+	
     double promedio = 10.00;
-    testValue(promedio);
+    assert(10.0 == promedio);
+	
     bool aprobado = true;
-    testValue(aprobado);
+    assert(aprobado);
 }
